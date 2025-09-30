@@ -24,3 +24,18 @@ project problems
 >kill the task :taskkill /PID <PID> /F
 >run the report command:npx playwright show-report
 
+
+
+
+
+installed items:
+npm install xlsx ===> excel iterable class
+
+npm i -D @playwright/test --allure-playwright ===>install allure
+npm install -g allure-commandline --save-dev  ===>install allure commandlines
+in config reporter:[['allure-playwright',{outputFile:'results'}]]
+allure generate results -o allure-report --clean ===> generate allure in html
+allure open allure-report===>to open the generated report in understandable format
+
+Help:
+Ctrl+Alt+B
